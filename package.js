@@ -1,0 +1,22 @@
+Package.describe({
+  name: 'donaldaverill:tedious',
+  summary: 'tedious npm package wrapped for Meteor.',
+  version: '1.7.0_1',
+  git: ' /* Fill me in! */ '
+});
+
+Npm.depends({
+  'tedious': '1.7.0'
+});
+Package.onUse(function(api) {
+  api.versionsFrom('1.0');
+  api.export('Tedious', ['server']);
+  api.export('TediousRequest', ['server']);
+  api.addFiles('donaldaverill:tedious.js', ['server']);
+});
+
+Package.onTest(function(api) {
+  api.use('tinytest', ['client', 'server']);
+  api.use('donaldaverill:tedious', ['server']);
+  api.addFiles('donaldaverill:tedious-tests.js', ['client', 'server']);
+});
