@@ -11,7 +11,6 @@ Npm.depends({
 Package.onUse(function(api) {
   api.versionsFrom('1.0');
   api.export('Tedious', ['server']);
-  api.export('TediousRequest', ['server']);
   api.addFiles('donaldaverill:tedious.js', ['server']);
 });
 
