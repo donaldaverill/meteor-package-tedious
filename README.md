@@ -1,5 +1,5 @@
 # README #
-[tedious](https://www.npmjs.org/package/tedious) Node.js module wrapped for Meteor. Used for connecting to Microsoft SQL Server and Azure databases.
+[tedious](https://www.npmjs.org/package/tedious) npm module wrapped for Meteor. Used for connecting to Microsoft SQL Server and Azure databases.
 
 For more, see the [tedious Documentation](http://pekim.github.io/tedious/index.html).
 
