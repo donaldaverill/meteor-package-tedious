@@ -1,5 +1,7 @@
 [![Build Status](https://travis-ci.org/donaldaverill/meteor-package-tedious.svg?branch=master)](https://travis-ci.org/donaldaverill/meteor-package-tedious)
-## README ##
+```
+meteor add donaldaverill:tedious
+```
 [tedious](https://www.npmjs.org/package/tedious) npm module wrapped for Meteor. Used for connecting to Microsoft SQL Server and Azure databases.
 
 For more, see the [tedious Documentation](http://pekim.github.io/tedious/index.html).
