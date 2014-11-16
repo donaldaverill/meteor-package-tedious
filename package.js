@@ -1,7 +1,7 @@
 Package.describe({
   name: 'donaldaverill:tedious',
   summary: 'tedious npm module wrapped for Meteor.',
-  version: '1.7.0_1',
+  version: '1.7.0_2',
   git: 'https://github.com/donaldaverill/meteor-package-tedious'
 });
 Npm.depends({
