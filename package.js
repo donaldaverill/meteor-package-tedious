@@ -4,7 +4,6 @@ Package.describe({
   version: '1.7.0_1',
   git: 'https://github.com/donaldaverill/meteor-package-tedious'
 });
-
 Npm.depends({
   'tedious': '1.7.0'
 });
@@ -13,7 +12,6 @@ Package.onUse(function(api) {
   api.export('Tedious', ['server']);
   api.addFiles('donaldaverill:tedious.js', ['server']);
 });
-
 Package.onTest(function(api) {
   api.use('tinytest', ['client', 'server']);
   api.use('donaldaverill:tedious', ['server']);
