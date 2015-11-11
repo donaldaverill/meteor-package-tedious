@@ -1,19 +1,19 @@
 Package.describe({
-  name: 'donaldaverill:tedious',
+  name: 'fourquet:tedious',
   summary: 'tedious npm module wrapped for Meteor.',
-  version: '1.10.0_2',
-  git: 'https://github.com/donaldaverill/meteor-package-tedious'
+  version: '1.13.1_1',
+  git: 'https://github.com/fourquet/meteor-package-tedious'
 });
 Npm.depends({
-  'tedious': '1.10.0'
+  'tedious': '1.13.1'
 });
 Package.onUse(function(api) {
   api.versionsFrom('1.0');
   api.export('Tedious', ['server']);
-  api.addFiles('donaldaverill:tedious.js', ['server']);
+  api.addFiles('tedious.js', ['server']);
 });
 Package.onTest(function(api) {
   api.use('tinytest', ['client', 'server']);
-  api.use('donaldaverill:tedious', ['server']);
-  api.addFiles('donaldaverill:tedious-tests.js', ['client', 'server']);
+  api.use('fourquet:tedious', ['server']);
+  api.addFiles('tedious-tests.js', ['client', 'server']);
 });
