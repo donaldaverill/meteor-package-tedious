@@ -1,13 +1,47 @@
 {
   "dependencies": {
     "tedious": {
-      "version": "1.10.0",
+      "version": "1.13.1",
       "dependencies": {
+        "babel-runtime": {
+          "version": "5.8.29",
+          "dependencies": {
+            "core-js": {
+              "version": "1.2.6"
+            }
+          }
+        },
         "big-number": {
           "version": "0.3.1"
         },
+        "bl": {
+          "version": "1.0.0"
+        },
         "iconv-lite": {
-          "version": "0.4.7"
+          "version": "0.4.13"
+        },
+        "readable-stream": {
+          "version": "2.0.4",
+          "dependencies": {
+            "core-util-is": {
+              "version": "1.0.1"
+            },
+            "inherits": {
+              "version": "2.0.1"
+            },
+            "isarray": {
+              "version": "0.0.1"
+            },
+            "process-nextick-args": {
+              "version": "1.0.3"
+            },
+            "string_decoder": {
+              "version": "0.10.31"
+            },
+            "util-deprecate": {
+              "version": "1.0.2"
+            }
+          }
         },
         "sprintf": {
           "version": "0.1.5"
