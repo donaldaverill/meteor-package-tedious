@@ -43,3 +43,10 @@ connection.on('connect', function (err) {
   connection.execSql(request);
 });
 ```
+### Version
+1.13.1_1
+
+License
+----
+
+MIT
